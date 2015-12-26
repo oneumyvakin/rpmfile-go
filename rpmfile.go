@@ -437,6 +437,6 @@ func (rpm *Rpm_file) Open(file_path string) {
 	rpm.read_headers()
 }
 
-func (rpm *Rpm_file) set_debug() {
+func (rpm *Rpm_file) Set_debug() {
 	rpm.Logger = log.New(os.Stdout, "RPM: ", log.Ldate|log.Ltime|log.Lshortfile)
 }
