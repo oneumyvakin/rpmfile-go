@@ -3,11 +3,13 @@ Working with rpm files with Golang
 
 # Usage
 
+- go get github.com/oneumyvakin/rpmfile-go
+
 ```
 package main
 
 import (
-  "rpmfile"
+  "github.com/oneumyvakin/rpmfile-go"
   "fmt"
 )
 
