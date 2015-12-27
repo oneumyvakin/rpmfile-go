@@ -2,7 +2,7 @@ package rpmheader
 
 import (
 	"reflect"
-	"rpmfile/common"
+	"github.com/oneumyvakin/rpmfile-go/common"
 )
 
 type Rpm_header struct {

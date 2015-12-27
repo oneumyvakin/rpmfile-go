@@ -12,9 +12,9 @@ import (
 	"errors"
 	"reflect"
 
-	"rpmfile/common"
-	"rpmfile/rpmheader"
-	"rpmfile/rpmsignature"
+	"github.com/oneumyvakin/rpmfile-go/common"
+	"github.com/oneumyvakin/rpmfile-go/rpmheader"
+	"github.com/oneumyvakin/rpmfile-go/rpmsignature"
 )
 
 type Rpm_file struct {

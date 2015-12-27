@@ -2,7 +2,7 @@ package rpmsignature
 
 import (
 	"reflect"
-	"rpmfile/common"
+	"github.com/oneumyvakin/rpmfile-go/common"
 )
 
 type Rpm_signature struct {
